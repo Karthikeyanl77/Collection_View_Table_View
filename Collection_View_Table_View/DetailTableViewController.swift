@@ -8,10 +8,22 @@
 import UIKit
 
 class DetailTableViewController: UIViewController {
+    
+    @IBOutlet weak var headerSection: UILabel!
+    @IBOutlet weak var itemData: UILabel!
+    
+    
+    var headerData: String?
+    var detailedData: String?
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+       // to display the data
+        headerSection.text = headerData
+        itemData.text = detailedData
         // Do any additional setup after loading the view.
     }
 

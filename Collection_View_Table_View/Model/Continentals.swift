@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+
+struct Continentals {
+    
+    let name: String
+    var Country: [String]
+}

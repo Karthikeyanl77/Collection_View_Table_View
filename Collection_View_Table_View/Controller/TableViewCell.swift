@@ -9,6 +9,9 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var CountryLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
